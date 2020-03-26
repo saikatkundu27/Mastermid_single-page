@@ -1,0 +1,269 @@
+body {
+    margin: 0px;
+    color: rgb(25, 111, 132);
+    background-color: rgb(233, 234, 236);
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+
+.sec-1 {
+    background-color: rgb(233, 234, 236);
+    text-align: left;
+    padding: 2% 0 2% 8%;
+    background-image: url("images/baby.jpeg");
+    background-position: bottom right;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    background-attachment: local;
+
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: 40%;
+
+
+}
+
+.headings h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+
+}
+
+.one {
+    color: rgb(228, 115, 98);
+}
+
+.sec-1 .contents {
+    margin: 10% auto 10% auto;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+.sec-1 .list {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 5%;
+}
+
+li {
+    margin: 7px;
+    font-family: 'Baloo 2', cursive;
+}
+
+
+/* lower section */
+
+.sec-2 {
+    background-color: rgb(25, 111, 132);
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.sec-2 .text {
+    color: white;
+    padding: 3% 4% 2% 5%;
+
+}
+
+.sec-2 .number {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(228, 115, 98);
+
+}
+
+.sec-2 .para1 {
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+
+.sec-2 .para2 {
+    font-size: 15px;
+    letter-spacing: 0.4px;
+}
+
+
+.sec-2 .logo-contents {
+    margin: 3% auto 2% auto;
+}
+
+.sec-2 .picture {
+    text-align: center;
+
+}
+
+.picture img {
+    width: 300px;
+    height: auto;
+}
+
+.picture a {
+    color: white;
+
+
+}
+
+
+/*for mobile */
+
+@media only screen and (max-width:900px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sec-1 {
+        padding-left: 15px;
+        background-size: 35%;
+
+    }
+
+    .headings h1 {
+
+
+        font-size: 40px;
+
+
+    }
+
+    .sec-1 .contents {
+        display: flex;
+        width: auto;
+        margin: 10% 0 10% 0;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+
+    .sec-1 .list {
+        font-size: 12px;
+
+        letter-spacing: 0.5px;
+
+
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin: 7px;
+
+    }
+
+    .sec-2 .text {
+        color: white;
+        padding: 3% 4% 2% 5%;
+        text-align: center;
+
+    }
+
+    .sec-2 .number {
+        font-size: 20px;
+        font-weight: bold;
+
+
+    }
+
+    .sec-2 .para1 {
+        font-size: 10px;
+
+
+    }
+
+    .sec-2 .para2 {
+        font-size: 8px;
+
+    }
+
+    .picture img {
+        width: 150px;
+        height: 75px;
+    }
+
+    .picture a {
+        padding: 10px;
+
+
+    }
+}
+
+@media only screen and (min-width:700px) and (max-width:900px) {
+    body
+{
+    background-color: rgb(25, 111, 132);
+}
+    .sec-1 {
+        padding-left: 50px;
+        background-size: 50%;
+
+    }
+
+    .headings h1 {
+
+
+        font-size: 70px;
+
+
+    }
+
+    .sec-1 .contents {
+
+        font-size: 18px;
+
+    }
+
+    .sec-1 .list {
+        font-size: 16px;
+
+
+
+
+    }
+
+    ul {
+        padding-left: 30px;
+    }
+
+   
+
+   
+
+    .sec-2 .number {
+        font-size: 30px;
+        font-weight: bold;
+
+
+    }
+
+    .sec-2 .para1 {
+        font-size: 15px;
+
+
+    }
+
+    .sec-2 .para2 {
+        font-size: 12px;
+
+    }
+
+    .picture img {
+        width: 150px;
+        height: 70px;
+    }
+
+    .picture a {
+        padding: 20px;
+
+
+    }
+}
